@@ -1,0 +1,16 @@
+{
+  "name": "mandacaru-telegram-bot",
+  "version": "2.0.0",
+  "description": "Bot Telegram integrado ao ERP Mandacaru",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "sqlite3": "^5.1.7"
+  }
+}
